@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(174, 192, 193);
+            font-size: 30px;
+        }
+     </style>   
+</head>
+<body>
+    <p>Q.1 What is Redux?</p>
+    <p>Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. </p><br>
+    <img src="./img.png" alt="">
+
+    <p>Q.2  What is Redux Thunk used for?</p>
+    <p> Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.</p><br>
+
+    <p>Q.3 What is Pure Component? When to use Pure Component over Component?</p>
+    <p> If the previous value of the state or props and the new value of the state or props are the same, the component will not re-render itself. Pure Components restricts the re-rendering when there is no use for re-rendering of the component.</p>
+    <p>Regular Component: Re-renders whenever its parent component re-renders or when its state or props change, even if the changes don't affect the component's output. PureComponent: Implements a shallow comparison in shouldComponentUpdate and only re-renders when there are changes in its state or props.</p><br>
+
+    <p> What is the second argument that can optionally be passed tosetState and what is
+        its purpose?</p>
+    <p>The second parameter to setState() is an optional callback function that will be executed once setState is completed and the component is re-rendered. </p>
+
+
+
+</body>
+</html>
